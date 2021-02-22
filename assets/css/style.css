@@ -1,0 +1,47 @@
+body {
+  background: black;
+}
+
+main.container {
+  margin-top: 20px;
+}
+
+.title {
+   border: 2px solid gold;  
+}
+
+.col {
+  background: #212529;
+  height: 300px;
+  border: 2px solid gold;
+}
+
+.col a {
+  color: crimson;
+}
+.col a:active, a:focus {
+  color: rgb(173, 10, 42);
+}
+
+.fst-italic {
+  color: gold;
+}
+
+h3, p {
+  color: linen;
+}
+
+strong.d-inline-block {
+  color: rgb(223, 128, 39) !important;
+}
+#canvas {
+  border: 3px solid gold;
+  position: relative;
+  left: 50%;
+
+  transform: translateX(-50%);
+  width: 318px;
+  height: 159px;
+
+  filter: blur(1px) contrast(0.57);
+}
